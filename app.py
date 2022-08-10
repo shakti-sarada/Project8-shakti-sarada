@@ -6,7 +6,7 @@ import pickle
 app = Flask(__name__)
 decision_tree_model = pickle.load(open('decision_tree-model.pkl','rb'))
 knn_model = pickle.load(open('knn-model.pkl','rb'))
-random_forest_model = pickle.load(open('random_forest-model.pkl','rb'))
+random_forest_model = pickle.load(open('random-model.pkl','rb'))
 naive_bayes_model = pickle.load(open('naive_bayes-model.pkl','rb'))
 svm_model = pickle.load(open('svm-model.pkl','rb'))
 
